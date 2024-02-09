@@ -136,7 +136,6 @@ img {
     font-weight: 700;
     line-height: 36px;
     background-color: var(--primary-500);
-    cursor: pointer;
     user-select: none;
 }
 
@@ -212,7 +211,6 @@ img {
     height: 100%;
     background-color: var(--base-white);
     border-radius: 50px;
-    cursor: pointer;
 }
 
 .toggle-switch__checkbox {
