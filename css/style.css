@@ -87,13 +87,14 @@ img {
 
 .page {
     position: relative;
-    min-width: 375px;
+    min-width: 320px;
     color: var(--base-white);
     font-weight: 400;
     font-family: 'Lekton', sans-serif;
     background-color: var(--base-black);
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     cursor: none;
+    overflow-x: hidden;
 }
 
 .list-reset {
