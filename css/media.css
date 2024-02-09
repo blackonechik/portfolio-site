@@ -1,0 +1,145 @@
+@media (max-width: 1200px) {
+
+    .section-offset {
+        padding: 30px 0;
+    }
+
+    .header__container {
+        justify-content: center;
+    }
+
+    .card {
+        padding: 20px 40px;
+    }
+
+    .achievements-list__item {
+        padding: 8px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .section-offset {
+        padding: 12px 0;
+    }
+
+    .header__container {
+        gap: 0;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+
+    .btn_header {
+        display: none;
+    }
+
+    .header__toggle-switch {
+        display: none;
+    }
+
+    .card {
+        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 11px 15px;
+    }
+
+    .card__picture {
+        width: 84px;
+        height: 84px;
+        margin-bottom: 0;
+    }
+
+    .card__title {
+        margin-bottom: 4px;
+        font-size: 20px;
+    }
+
+    .card__profession {
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+
+    .card__list {
+        margin-bottom: 0;
+    }
+
+    .card__link {
+        width: 22px;
+        height: 22px;
+    }
+
+    .btn_hero {
+        display: none;
+    }
+
+    .pre-subtitle {
+        margin-bottom: 12px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .subtitle {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .text_about {
+        margin-bottom: 24px;
+    }
+
+    .achievements-list__item {
+        gap: 5px;
+    }
+
+    .achievements-list__figure {
+        font-size: 28px;
+    }
+
+    .text_skills {
+        margin-bottom: 10px;
+    }
+
+    .technology {
+        gap: 25px;
+    }
+
+    .technology__icon {
+        height: 32px;
+    }
+
+    .project-card {
+        padding: 14px 12px;
+    }
+
+    .client {
+        gap: 16px;
+        min-height: 200px;
+        padding: 16px;
+    }
+
+    .client__icon-quote {
+        top: 28px;
+        right: 29px;
+    }
+
+    .client__name {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .client__role {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+}
