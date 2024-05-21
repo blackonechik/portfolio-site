@@ -20,6 +20,11 @@
 
 @media (max-width: 768px) {
 
+    .cursor-ball,
+    .cursor-outline {
+        display: none;
+    }
+
     .section-offset {
         padding: 12px 0;
     }
@@ -115,6 +120,7 @@
 
     .technology__icon {
         height: 32px;
+        width: 32px;
     }
 
     .project-card {

@@ -399,18 +399,14 @@ img {
 
 .skills__list {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
 }
 
 
 .text_skills {
     margin-bottom: 48px;
-}
-
-.technology {
-    display: flex;
-    gap: 45px;
 }
 
 .technology__icon {
